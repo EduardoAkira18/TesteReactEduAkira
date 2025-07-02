@@ -9,7 +9,7 @@
 3. Sua tarefa é:
    - Corrigir e implementar o filtro para que funcione corretamente.
    - Criar uma página que exiba todos os usuários em detalhes.
-   - Adicionar navegação entre a página inicial e a nova página de detalhes.
+   - Adicionar navegação entre a página inicial e a nova página de detalhes
 
 ## Requisitos:
 
