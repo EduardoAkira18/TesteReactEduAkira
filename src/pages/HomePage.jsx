@@ -51,10 +51,12 @@ function HomePage() {
   }
 
   return (
-    <div className="space-y-4 p-6 bg-slate-200 rounded-md flex flex-col">
-      {" "}
-      <div className="">
-        <label htmlFor="name-filter" className="">
+    <div className="space-y-6 p-6 bg-slate-200 rounded-md flex flex-col max-w-md mx-auto shadow-md">
+      <div className="flex flex-col">
+        <label
+          htmlFor="name-filter"
+          className="mb-1 font-medium text-slate-700"
+        >
           Nome:
         </label>
         <input
@@ -67,8 +69,11 @@ function HomePage() {
           onChange={handleInputChange}
         />
       </div>
-      <div className="">
-        <label htmlFor="email-filter" className="label">
+      <div className="flex flex-col">
+        <label
+          htmlFor="email-filter"
+          className="mb-1 font-medium text-slate-700"
+        >
           Email:
         </label>
         <input
@@ -81,30 +86,20 @@ function HomePage() {
           onChange={handleInputChange}
         />
       </div>
-      <button onClick={handleBuscar} className="button">
-        Buscar
-      </button>
-      {/* <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
-        {userFilter.map((user) => (
-          <li key={user.id} className="flex gap-2">
-            <span className="bg-slate-400 text-left w-full text-white p-2 rounded-md">
-              {user.name}
-            </span>
-            <span className="bg-slate-400 text-left w-full text-white p-2 rounded-md">
-              {" "}
-              {user.email}
-            </span>
-            <button
-              onClick={() => {
-                onSeeDetailsClick(user);
-              }}
-              className="bg-slate-400 p-2 rounded-md text-white"
-            >
-              <ChevronRightIcon />
-            </button>
-          </li>
-        ))}
-      </ul> */}
+      <div className="flex justify-center gap-4">
+        <button
+          onClick={handleBuscar}
+          className="text-white bg-slate-400 rounded-md p-2 w-fit "
+        >
+          Buscar
+        </button>
+        <button
+          onClick={handleBuscar}
+          className="text-white bg-slate-400 rounded-md p-2 w-fit "
+        >
+          Limpar
+        </button>
+      </div>
       <ul className="space-y-4 p-6 items-center bg-slate-200 rounded-md shadow">
         {userFilter.length === 0 ? (
           <li className="flex gap-2">Nenhum usuário encontrado</li>
@@ -124,27 +119,6 @@ function HomePage() {
           ))
         )}
       </ul>
-      {/* <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
-        {userFilter.map((user) => (
-          <li key={user.id} className="flex gap-2">
-            <span className="bg-slate-400 text-left w-full text-white p-2 rounded-md">
-              {user.name}
-            </span>
-            <span className="bg-slate-400 text-left w-full text-white p-2 rounded-md">
-              {" "}
-              {user.email}
-            </span>
-            <button
-              onClick={() => {
-                onSeeDetailsClick(user);
-              }}
-              className="bg-slate-400 p-2 rounded-md text-white"
-            >
-              <ChevronRightIcon />
-            </button>
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 }
