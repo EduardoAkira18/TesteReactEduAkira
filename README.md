@@ -27,6 +27,13 @@
 4. **Organização das pastas:**
    - Existiam pastas duplicadas que retirei para manter a arquitetura do projeto
 
+## Ajustes e melhorias:
+
+- [ ] Melhoria do CSS
+- [ ] Melhoria do router
+- [ ] Criação de um back-end
+- [ ] Criação das funções de criar, deletar e atualizar novo usuário
+
 ## Entrega:
 
 - Fazer um fork desse repositório e abrir uma pull request.
