@@ -5,9 +5,9 @@ function DetailsUsersPage() {
   const navigate = useNavigate();
 
   const [searchParams] = useSearchParams();
-  const name = searchParams.get("name");
-  const email = searchParams.get("email");
-  const phone = searchParams.get("phone");
+  const name = searchParams.get("name"); //
+  const email = searchParams.get("email"); //
+  const phone = searchParams.get("phone"); //
 
   return (
     <div className="min-h-screen bg-slate-500 flex justify-center p-6">

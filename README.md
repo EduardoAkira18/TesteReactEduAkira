@@ -2,36 +2,30 @@
   <img src="./src/images/fullbar.svg" alt="Logo" />
 </p>
 
-## Descrição do Desafio:
+## Primeiros passos:
 
-1. Você receberá um projeto básico em React com uma lista de usuários mockada em um arquivo JSON.
-2. A página inicial exibirá uma lista de usuários com um campo de filtro que não está funcionando.
-3. Sua tarefa é:
-   - Corrigir e implementar o filtro para que funcione corretamente.
-   - Criar uma página que exiba todos os usuários em detalhes.
-   - Adicionar navegação entre a página inicial e a nova página de detalhes
+1. Realizar o git clone do projeto >> git clone https://github.com/AgFullbar/TesteReact.git
+2. Instalar as dependecias com >> npm install
+3. Rodar o projeto com >> npm run start
 
-## Requisitos:
+## O que foi feito?:
 
-1. **Implementação do Filtro:**
+1. **Implementação da componetização:**
 
-   - Consertar o filtro da página que busca os usuários por nome.
+   - Componetizado os Inputs, Botões e a listagem dos usuários
 
-2. **Nova Página de Usuários:**
+2. **Criação de uma navegação com React Router:**
 
-   - Criar uma nova página que exiba todos os usuários de forma detalhada.
-   - A nova página deve ser acessível através de um botão na página inicial.
-   - Na nova página, mostrar informações adicionais de cada usuário (como e-mail, telefone, etc.).
+   - Criado a navegação a partir do React Router, tendo navegação para a pagina de detalhes do usuário e o botão para voltar para a página principal.
 
-3. **Navegação:**
+3. **Bibliotecas que utilizei:**
 
-   - Implementar navegação entre a página inicial e a nova página usando React Router.
-   - Adicionar links ou botões que permitam voltar para a página inicial.
+   - Tailwind
+   - Lucide Icons
+   - React Router
 
-4. **Diferenciais:**
-   - Estruturar o código de forma clara e organizada.
-   - Usar componentes funcionais com Hooks (`useState`, `useEffect`).
-   - Adicionar comentários no código onde necessário.
+4. **Organização das pastas:**
+   - Existiam pastas duplicadas que retirei para manter a arquitetura do projeto
 
 ## Entrega:
 
